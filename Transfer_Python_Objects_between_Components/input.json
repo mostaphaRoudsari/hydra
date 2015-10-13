@@ -1,0 +1,1 @@
+{"videos": {}, "tags": ["Grasshopper", "Dynamo", "Class", "Object", "Transfer", "Python"], "components": {"Python Script": 2, "Sketch": 1}, "thumbnail": "thumbnail.png", "file": "Transfer_Python_Objects_between_Components.zip", "images": [{"Transfer_Python_Objects_between_Components_GH.png": "Grasshopper Definition"}], "dependencies": ["GHPython"]}
