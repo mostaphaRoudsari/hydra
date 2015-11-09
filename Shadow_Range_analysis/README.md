@@ -5,6 +5,6 @@ This file has been submitted by [mostaphaRoudsari](https://github.com/mostaphaRo
 
 [Check out this example on Hydra!](http://hydrashare.github.io/hydra/viewer?owner=mostaphaRoudsari&fork=hydra_1&id=Shadow_Range_analysis)
 ### Tags 
-Grasshopper, Shadow Range, Ladybug
+Grasshopper, Shadow Range, Ladybug, LBExampleFiles
 ### Thumbnail 
 ![Screenshot](https://raw.githubusercontent.com/mostaphaRoudsari/hydra/master/Shadow_Range_analysis/thumbnail.png)
