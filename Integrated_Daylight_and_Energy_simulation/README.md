@@ -5,6 +5,6 @@ This file has been submitted by [mostaphaRoudsari](https://github.com/mostaphaRo
 
 [Check out this example on Hydra!](http://hydrashare.github.io/hydra/viewer?owner=mostaphaRoudsari&fork=hydra_1&id=Integrated_Daylight_and_Energy_simulation)
 ### Tags 
-Honeybee, Energy, Daylighting, EnergyPlus, Daysim, Radiance
+Honeybee, Energy, Daylighting, EnergyPlus, Daysim, Radiance, HBExampleFiles
 ### Thumbnail 
 ![Screenshot](https://raw.githubusercontent.com/mostaphaRoudsari/hydra/master/Integrated_Daylight_and_Energy_simulation/thumbnail.png)
