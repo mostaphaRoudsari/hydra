@@ -1,0 +1,44 @@
+{
+	perforate.cal
+    Perforation function for approximately horizontal surfaces,
+	for use in a mixfunc. Foreground is solid, background the holes.
+	Set background to empty for a true perforation, or to a different
+	material for polka dots.
+	
+	
+
+	Relative hole size is determined by A1.
+    Size of single circle is 1 - scale as required (eg. 0.05m).
+
+	x_hole cuts holes in x-direction (through the y-z plane)
+	y_hole cuts holes in y-direction (through the x-z plane)
+	z_hole cuts holes in z-direction (through the x-y plane)
+
+    Georg Mischler 30. 04. 1993
+}
+
+`xn = mod(Px, 1) - 0.5;
+`yn = mod(Py, 1) - 0.5;
+`zn = mod(Pz, 1) - 0.5;
+
+{uv coordinate mapping}
+`un = mod(U, 1) - 0.5;
+`vn = mod(V, 1) - 0.5;
+
+{uv mesh coordinate mapping}
+`lun = mod(Lu,1) - 0.5;
+`lvn = mod(Lv,1) - 0.5;
+
+`outofcirc(x, y, r) = if(sqrt(x*x + y*y) - r, 1, 0);
+
+z_hole = `outofcirc(`xn, `yn, A1);
+x_hole = `outofcirc(`yn, `zn, A1);
+y_hole = `outofcirc(`zn, `xn, A1);
+
+{uv coordinate mapping}
+uv_hole = `outofcirc(`un, `vn, A1);
+
+{uv mesh coordinate mapping}
+luv_hole = `outofcirc(`lun, `lvn, A1);
+
+{ end of perforate.cal }
